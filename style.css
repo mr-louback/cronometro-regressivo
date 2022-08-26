@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&family=Rubik+Iso&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    background-image: url("pexels-photo-1089455.jpeg");
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.content {
+    margin: 11rem auto;
+}
+
+.container {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    width: auto;
+}
+
+h1 {
+
+    color: aliceblue;
+}
+
+h1>.transparencia-container {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    margin: 0px;
+}
+
+.transparencia-container {
+    background-color: rgba(240, 248, 255, 0.178);
+    margin: 0.3rem 0.6rem;
+
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: -5px;
+    border-radius: 8px;
+}
+
+.big-text {
+    font-weight: 400;
+    font-size: 2rem;
+ 
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+
+}
+span {
+    color: aliceblue;
+    margin-left: 3px;
+}
